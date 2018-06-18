@@ -40,7 +40,9 @@ function add2(n){
       expect(typeof window.funkyFunction()).toEqual('function')
     })
   })*/
-function funkyFunction
+var funkyFunction = function(){
+  
+}
 
   describe('theFunk', function() {
     it('is "FUNKY!"', function() {
