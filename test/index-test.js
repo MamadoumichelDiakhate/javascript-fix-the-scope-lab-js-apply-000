@@ -31,12 +31,16 @@ function yourAnimal(){
       expect(window.add2(n)).toEqual(n + 2)
     })
   })*/
-
-  describe('funkyFunction()', function() {
+function add2(n){
+  const two = 2 ;
+  return n + two;
+}
+ /* describe('funkyFunction()', function() {
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
     })
-  })
+  })*/
+function funkyFunction
 
   describe('theFunk', function() {
     it('is "FUNKY!"', function() {
