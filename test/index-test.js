@@ -42,9 +42,9 @@ function add2(n){
   })*/
 var funkyFunction = function(){
   return function(){
-    
-  }
-}
+    return "FUNKY!";
+  };
+};
 
   describe('theFunk', function() {
     it('is "FUNKY!"', function() {
