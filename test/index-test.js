@@ -39,17 +39,18 @@ function add2(n){
     it('returns a function', function() {
       expect(typeof window.funkyFunction()).toEqual('function')
     })
-  })*/
-var funkyFunction = function(){
-  return function(){
-    return "FUNKY!";
-  };
-};
-
+  })
   describe('theFunk', function() {
     it('is "FUNKY!"', function() {
       expect(window.theFunk).toEqual('FUNKY!')
     })
   })
 
-})
+})*/
+var funkyFunction = function(){
+  return function(){
+    return "FUNKY!";
+  };
+};
+var theFunk = funkyFunction;
+var theFunk = "FUNKY!";
